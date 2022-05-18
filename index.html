@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dicee</title>
+
+  <!-- CSS Stylesheet  -->
+  <link rel="stylesheet" href="styles.css">
+  <script src="index.js" charset="utf-8"></script>
+
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+  <section id="result">
+
+    <div class="playerResult">
+      <h1>Please Refresh the Page</h1>
+      <script>
+        document.querySelector("div h1").innerHTML = winner;
+      </script>
+    </div>
+
+  </section>
+
+
+  <section id="choices">
+
+    <div class="player1">
+      <h2 class="playerName">Player 1</h2>
+      <img class="dice dicePlayer1" src="images\dice1.png" alt="dice-player-1">
+      <script type="text/javascript">
+        document.querySelector(".dicePlayer1").src = dice1;
+      </script>
+    </div>
+    <div class="player2">
+      <h2 class="playerName">Player 2</h2>
+      <img class="dice dicePlayer2" src="images\dice2.png" alt="dice-player-2">
+      <script type="text/javascript">
+        document.querySelector(".dicePlayer2").src = dice2;
+      </script>
+    </div>
+  </section>
+
+
+
+</body>
+
+</html>

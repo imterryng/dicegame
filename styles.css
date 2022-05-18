@@ -1,0 +1,44 @@
+body {
+  background-color: #524A4E;
+  margin: auto;
+}
+
+h1 {
+  margin:2% 20%;
+}
+
+
+.dice {
+  width: 160px;
+}
+
+.player1 {
+  display: inline-block;
+  margin: 30px;
+}
+
+.player2 {
+  display: inline-block;
+  margin: 30px;
+}
+
+.playerName {
+  font-size: 2rem;
+}
+
+.playerResult {
+  font-size: 4.5rem;
+  color: #2EB086;
+}
+
+
+#result {
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
+
+#choices {
+  font-family: 'Grape Nuts', cursive;
+  color: #2EB086;
+  text-align: center;
+}
